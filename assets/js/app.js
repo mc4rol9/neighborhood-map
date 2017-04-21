@@ -1,7 +1,7 @@
 // The Global variables
 var map; // the map
 
-// The function to initialize map
+// The function that initializes the map
 function initMap() {
     // The map styles
     var styles = [
@@ -79,3 +79,10 @@ function initMap() {
         mapTypeCOntrol: false
     });
 }
+
+// The ViewModel Knockout to deal with infos that change state
+var AppViewModel = function() {
+    
+}
+
+ko.applyBindings(new AppViewModel())
